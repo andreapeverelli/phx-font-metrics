@@ -1,5 +1,5 @@
 # phx-font-metrics
-Generates CSS font-metrics that fits the Google Sans typescale of Material You
+Extract metrics from a TTF font file for generating a custom Material You typescale.
 
 ## Install from Source
 ```bash

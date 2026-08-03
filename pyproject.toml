@@ -1,7 +1,7 @@
 [project]
 name = "phx-font-metrics"
 version = "1.0.0"
-description = "Generates CSS font-metrics that fits the Google Sans typescale of Material You"
+description = "Extract metrics from a TTF font file for generating a custom Material You typescale"
 readme = "README"
 license = "GPL-3.0"
 authors = [
