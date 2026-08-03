@@ -1,0 +1,9 @@
+[project]
+name = "phx-font-metrics"
+version = "1.0.0"
+description = "Generates CSS font-metrics that fits the Google Sans typescale of Material You"
+readme = "README"
+license = "GPL-3.0"
+authors = [
+	{ name = "Andrea Peverelli", email = "ndrpeverelli@gmail.com" }
+]
