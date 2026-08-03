@@ -22,5 +22,5 @@ sudo pacman -Syy phx-font-metrics
 ## Usage
 The main purpose is to be used from PHX-TOOLS generate:typescale but it can also be run independently with this command:
 ```bash
-phx-font-metrics ttf_font
+phx-font-metrics ttf_font_file [weight_axis_name] [weight_axis_value]
 ```
