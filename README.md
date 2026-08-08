@@ -20,7 +20,7 @@ sudo pacman -Syy phx-font-metrics
 ```
 
 ## Usage
-The main purpose is to be used from PHX-TOOLS generate:typescale but it can also be run independently with this command:
+The main purpose is to be used from PHX-CLI generate:typescale but it can also be run independently with this command:
 ```bash
-phx-font-metrics ttf_font_file [weight_axis_name] [weight_axis_value]
+phx-font-metrics TTF_FONT_FILE [WEIGHT_AXIS_NAME] [WEIGHT_AXIS_VALUE]
 ```

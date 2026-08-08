@@ -20,7 +20,7 @@ PHX-FONT-METRICS
 Extract metrics from a TTF font file for generating a custom Material You typescale.
 
 Command structure:
-    phx-font-metrics ttf_font_file [weight_axis_name] [weight_axis_value]
+    phx-font-metrics TTF_FONT_FILE [WEIGHT_AXIS_NAME] [WEIGHT_AXIS_VALUE]
     phx-font-metrics --version
     phx-font-metrics --help
 """)
@@ -28,7 +28,7 @@ Command structure:
     sys.exit(0)
 
 if sys.argv[1] == "--version":
-    sys.stdout.write("PHX-FONT-METRICS v1.0.0\n")
+    sys.stdout.write("PHX-FONT-METRICS v1.0.1\n")
 
     sys.exit(0)
 

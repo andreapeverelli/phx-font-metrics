@@ -1,7 +1,7 @@
 pkgname=phx-font-metrics
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
-pkgdesc="Extract metrics from a TTF font file for generating a custom Material You typescale"
+pkgdesc="Extract metrics from a TTF font file for generating a custom Material You typescale."
 arch=('any')
 url="https://github.com/andreapeverelli/phx-font-metrics.git"
 license=('GPL-3.0')
