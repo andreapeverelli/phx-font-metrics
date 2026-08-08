@@ -222,7 +222,7 @@ __marimo__/
 /pkg/
 /*.pkg.tar.zst
 /*.pkg.tar.zst.sig
-/bin/phx-fonts-metrics
+/bin/phx-font-metrics
 /src/*.build
 /src/*.dist
 /src/*.onefile-build
