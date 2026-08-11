@@ -28,7 +28,7 @@ Command structure:
     sys.exit(0)
 
 if sys.argv[1] == "--version":
-    sys.stdout.write("PHX-FONT-METRICS v1.0.1\n")
+    sys.stdout.write("PHX-FONT-METRICS v2.0.0\n")
 
     sys.exit(0)
 

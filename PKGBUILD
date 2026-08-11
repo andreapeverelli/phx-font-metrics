@@ -1,17 +1,21 @@
 pkgname=phx-font-metrics
-pkgver=1.0.1
+pkgver=2.0.0
 pkgrel=1
 pkgdesc="Extract metrics from a TTF font file for generating a custom Material You typescale."
-arch=('any')
+arch=("x86_64" "aarch64")
 url="https://github.com/andreapeverelli/phx-font-metrics.git"
 license=('GPL-3.0')
 
-depends=(
-	'python'
-	'python-pip'
+makedepends=(
+	"python"
+	"python-pip"
 )
 
+options=(!debug)
+
 build() {
+	mkdir -p ../bin
+	mkdir -p ../.venv/phx-font-metrics
 	python -m venv ../.venv/phx-font-metrics/
 	source ../.venv/phx-font-metrics/bin/activate
 	pip install fonttools brotli nuitka

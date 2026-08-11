@@ -1,6 +1,6 @@
 [project]
 name = "phx-font-metrics"
-version = "1.0.1"
+version = "2.0.0"
 description = "Extract metrics from a TTF font file for generating a custom Material You typescale."
 readme = "README.md"
 license = "GPL-3.0"
